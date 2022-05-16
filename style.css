@@ -1,0 +1,192 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #485268;
+    background: #E5E5E5;
+   
+}
+
+strong {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #485268;
+}
+
+.main {
+    background:#FFF;
+}
+
+.container {
+max-width: 595px;
+margin: 0 auto;
+}
+.about {
+    background-color: #E25544;
+    padding: 32px 40px 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.about-wraper {
+    max-width: 351px;
+    margin-right: 50px;
+}
+
+.about__name {
+margin: 0 0 8px 0;
+font-size: 30px;
+line-height: 37px;
+font-weight: 600;
+}
+
+.about__role {
+margin: 0 0 8px 0;
+font-size: 12px;
+line-height: 15px;
+}
+
+.about__text {
+margin: 0;    
+font-size: 10px;
+line-height: 150%;
+}
+
+.about__foto {
+width: 114px;
+height: 114px;
+border-radius: 50%;
+}
+
+.main {
+   padding: 24px 40px 32px;
+}
+
+.contact {
+margin: 0 0 24px;
+
+}
+
+.contact__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+
+
+
+
+.info {
+border-top: 1px solid #DEE2ED;
+padding: 24px 0;
+display: flex;
+justify-content: space-between;
+
+}
+
+.info__title {
+margin: 0 ;
+color:#E25544;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+}
+
+.info__content {
+ width: 360px;
+}
+
+.job {
+border-left: 1px dashed #DEE2ED;
+padding-left: 8px;
+}
+
+.job__title {
+margin: 0;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-transform: capitalize;
+}
+
+.job__description {
+margin: 8px 0 0 0;
+}
+
+.study {
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+    margin-top: 24px;
+    display: flex;
+    }
+
+.study:first-child {
+    margin-top: 0;
+}
+
+.study__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+    
+    
+.study__description {
+    margin: 8px 0 0 0;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills__list {
+    box-sizing: border-box;
+    width: 50%;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+    margin: 0;
+    list-style: none;
+}
+
+.scills__item {
+    margin-bottom: 8px;
+}
+
+.scills__item:last-child {
+    margin-bottom: 0;
+}
+
+.tools {
+    display: flex;
+}
+
+.tools__list {
+    box-sizing: border-box;
+    width: 50%;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+    margin: 0;
+    list-style: none;
+}
+
+.tools__item {
+    margin-bottom: 8px;
+}
+
+.tools__item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
